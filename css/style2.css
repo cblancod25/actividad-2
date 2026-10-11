@@ -1,0 +1,36 @@
+.menuHorizontal,
+.menuVertical {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuHorizontal {
+    display: inline-flex;
+}
+
+.menuHorizontal li {
+    background-color: #7b6246;
+    padding: 10px 20px;
+}
+
+.menuVertical {
+    display: inline-block;
+}
+
+.menuVertical li {
+    background-color: #3ce330;
+    padding: 10px 40px 10px 20px;
+}
+
+.menuVertical li.opcion3 {
+    background-color: red;
+}
+
+.menuHorizontal a,
+.menuVertical a {
+    color: white;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
