@@ -1,0 +1,28 @@
+.titulo{
+
+    background-color: cyan;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0;
+    
+
+}
+
+ul ul {
+    list-style-type: square;
+}
+
+ol ol {
+    list-style-type: square;
+}
+
+ol.letras {
+    list-style-type: lower-alpha;
+}
+
+ol.romanos {
+    list-style-type: lower-roman;
+}
